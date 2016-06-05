@@ -15,7 +15,7 @@
 	<div align="right"><a href="registration">Register</a></div>
 	<h3>list of books</h3>
 
-	<table border="1">
+	<table border="1.5">
 		<c:forEach var="book" items="${allBooks}">
 			<tr>
 				<td style="color:blue;"><c:out value="${book.title}" /></td>

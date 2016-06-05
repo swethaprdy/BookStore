@@ -11,7 +11,7 @@
 <h1>Welcome to BookStore</h1>
 <h3>list of books</h3>
 <a href="listBooks">list</a>
-	<table border="1">
+	<table border="2">
 		<c:forEach var="book" items="${allBooks}">
 			<tr>
 				<td><c:out value="${book.title}" /></td>
